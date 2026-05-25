@@ -14,5 +14,5 @@ public class LoginBean {
 	private String role;
 	private String createdAt;
 	private int isBanned;
-	private int id;
+	
 }
