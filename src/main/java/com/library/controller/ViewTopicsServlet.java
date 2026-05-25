@@ -68,7 +68,8 @@ public class ViewTopicsServlet extends HttpServlet {
         }
         
         request.setAttribute("currentCatId", catIdStr);
-        request.setAttribute("topics", topicsList);
+     
+        request.setAttribute(topics, topicsList);
         
        
         request.getRequestDispatcher("/topics-list.jsp").forward(request, response);
